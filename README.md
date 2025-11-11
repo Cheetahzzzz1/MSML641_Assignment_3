@@ -1,4 +1,4 @@
-#  IMDB Movie Sentiment Analysis using RNN Architectures
+# IMDB Movie Sentiment Analysis using RNN Architectures
 
 This assignment performs sentiment classification on the **IMDB Movie Reviews** dataset using three recurrent neural network architectures — **Simple RNN**, **LSTM**, and **Bidirectional LSTM**.  
 Each model is evaluated across different sequence lengths and gradient-clipping configurations to compare performance based on accuracy, F1-score, and training time.
