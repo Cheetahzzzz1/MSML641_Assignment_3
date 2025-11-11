@@ -145,28 +145,23 @@ Movie Sentiment Analysis/
 
 ---
 
-## 📉 7. Plots
+## 📉 7. Plots and Visualizations
 
 ### 📊 Accuracy / F1 vs Sequence Length
-Plots stored in:
-```
-results/plots/acc_vs_seq_RNN.png  
-results/plots/acc_vs_seq_LSTM.png  
-results/plots/acc_vs_seq_BiLSTM.png
-```
+<p align="center">
+  <img src="results/plots/acc_vs_seq_RNN.png" width="300"/>
+  <img src="results/plots/acc_vs_seq_LSTM.png" width="300"/>
+  <img src="results/plots/acc_vs_seq_BiLSTM.png" width="300"/>
+</p>
 
-These show how accuracy and F1-score vary with sequence length across models.
+### 📈 Training Loss vs Epochs
+<p align="center">
+  <img src="results/plots/loss_BiLSTM_100_clip.png" width="400"/>
+  <img src="results/plots/loss_RNN_25_noclip.png" width="400"/>
+</p>
 
----
+The BiLSTM model (right) shows smooth convergence, while the RNN model (left) suffers from gradient instability.
 
-### 📉 Training Loss vs Epochs (Best and Worst Models)
-Plots stored in:
-```
-results/plots/loss_BiLSTM_100_clip.png   (Best Model)
-results/plots/loss_RNN_25_noclip.png     (Worst Model)
-```
-
-The best model shows smooth convergence, while the worst one shows unstable loss curves due to exploding gradients.
 
 ---
 
