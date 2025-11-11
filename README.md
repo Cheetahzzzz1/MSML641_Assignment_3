@@ -1,20 +1,20 @@
-# 🎬 IMDB Movie Sentiment Analysis using RNN Architectures
+#  IMDB Movie Sentiment Analysis using RNN Architectures
 
 This assignment performs sentiment classification on the **IMDB Movie Reviews** dataset using three recurrent neural network architectures — **Simple RNN**, **LSTM**, and **Bidirectional LSTM**.  
 Each model is evaluated across different sequence lengths and gradient-clipping configurations to compare performance based on accuracy, F1-score, and training time.
 
 ---
 
-## 🧩 1. Setup Instructions
+##  1. Setup Instructions
 
-### 🐍 Python Version
+###  Python Version
 This assignment was developed and tested using:
 
 ```
 Python 3.12.5
 ```
 
-### 📦 Dependencies
+###  Dependencies
 Install all required packages using the following command:
 
 ```bash
@@ -30,7 +30,7 @@ pip install torch pandas numpy matplotlib scikit-learn tqdm
 
 ---
 
-## 📁 2. Dataset
+##  2. Dataset
 
 Download the IMDB dataset manually from Kaggle:  
 🔗 [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
@@ -42,11 +42,11 @@ data/
 └── IMDB Dataset.csv
 ```
 
-> ⚠️ The dataset could **not be included** because of GitHub's 100MB file upload limit.
+>  The dataset could **not be included** because of GitHub's 100MB file upload limit.
 
 ---
 
-## ⚙️ 3. How to Run
+##  3. How to Run
 
 ### 🔹 Step 1 – Activate the Virtual Environment (Windows PowerShell)
 
@@ -92,7 +92,7 @@ This creates the following plots:
 
 ---
 
-## 🕓 4. Expected Runtime
+##  4. Expected Runtime
 
 | **Hardware** | **Approx. Runtime** |
 |---------------|---------------------|
@@ -101,7 +101,7 @@ This creates the following plots:
 
 ---
 
-## 📊 5. Output Files and Folder Structure
+##  5. Output Files and Folder Structure
 
 After successful training and evaluation, the directory should look like this:
 
@@ -129,7 +129,7 @@ Movie Sentiment Analysis/
 
 ---
 
-## 📈 6. Results (Example Summary)
+##  6. Results (Example Summary)
 
 | Model | Activation | Optimizer | Seq Length | Grad Clipping | Accuracy | F1 | Epoch Time (s) |
 |:------|:-----------:|:-----------:|:------------:|:---------------:|:----------:|:----------:|:---------------:|
@@ -145,16 +145,16 @@ Movie Sentiment Analysis/
 
 ---
 
-## 📉 7. Plots and Visualizations
+##  7. Plots and Visualizations
 
-### 📊 Accuracy / F1 vs Sequence Length
+###  Accuracy / F1 vs Sequence Length
 <p align="center">
   <img src="results/plots/acc_vs_seq_RNN.png" width="300"/>
   <img src="results/plots/acc_vs_seq_LSTM.png" width="300"/>
   <img src="results/plots/acc_vs_seq_BiLSTM.png" width="300"/>
 </p>
 
-### 📈 Training Loss vs Epochs
+###  Training Loss vs Epochs
 <p align="center">
   <img src="results/plots/loss_BiLSTM_100_clip.png" width="400"/>
   <img src="results/plots/loss_RNN_25_noclip.png" width="400"/>
