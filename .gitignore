@@ -1,0 +1,14 @@
+# Ignore environment
+venv/
+__pycache__/
+
+# Ignore large data files
+data/IMDB Dataset.csv
+*.zip
+
+# Ignore Python cache
+*.pyc
+.DS_Store
+
+# Ignore training results if too large (optional)
+results/plots/*.png

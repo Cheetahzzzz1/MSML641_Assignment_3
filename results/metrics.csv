@@ -1,0 +1,19 @@
+Model,Activation,Optimizer,Seq Length,Grad Clipping,Accuracy,F1_macro,Epoch Time (s)
+RNN,tanh,Adam,25,No,0.6784,0.6782,19.413
+RNN,tanh,Adam,25,Yes,0.6748,0.6744,21.509
+RNN,tanh,Adam,50,No,0.4718,0.4683,37.665
+RNN,tanh,Adam,50,Yes,0.6574,0.6556,42.377
+RNN,tanh,Adam,100,No,0.5244,0.5211,141.939
+RNN,tanh,Adam,100,Yes,0.6772,0.6738,106.962
+LSTM,tanh,Adam,25,No,0.7009,0.697,513.715
+LSTM,tanh,Adam,25,Yes,0.7165,0.7165,22.259
+LSTM,tanh,Adam,50,No,0.774,0.7739,44.624
+LSTM,tanh,Adam,50,Yes,0.765,0.7639,45.461
+LSTM,tanh,Adam,100,No,0.7765,0.7764,85.379
+LSTM,tanh,Adam,100,Yes,0.812,0.8117,247.58
+BiLSTM,tanh,Adam,25,No,0.7226,0.7225,51.07
+BiLSTM,tanh,Adam,25,Yes,0.7201,0.7199,100.929
+BiLSTM,tanh,Adam,50,No,0.7471,0.7469,97.685
+BiLSTM,tanh,Adam,50,Yes,0.766,0.7659,93.409
+BiLSTM,tanh,Adam,100,No,0.7948,0.7942,164.013
+BiLSTM,tanh,Adam,100,Yes,0.8124,0.8115,313.923
