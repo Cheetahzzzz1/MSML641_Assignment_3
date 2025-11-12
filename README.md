@@ -43,6 +43,8 @@ data/
 ```
 
 >  The dataset could **not be included** because of GitHub's 100MB file upload limit.
+>  Note: The `data/` folder is intentionally empty on GitHub.  
+> Please place your `IMDB Dataset.csv` file inside this folder before running the scripts.
 
 ---
 
